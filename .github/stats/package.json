@@ -1,0 +1,12 @@
+{
+  "name": "profile-stats",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node generate.mjs",
+    "test": "node --test generate.test.mjs"
+  },
+  "dependencies": {
+    "@stats-organization/github-readme-stats-core": "2.2.1"
+  }
+}

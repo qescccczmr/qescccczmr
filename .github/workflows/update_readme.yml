@@ -8,6 +8,7 @@ on:
       - main
     paths:
       - ".github/workflows/update_readme.yml"
+      - ".github/stats/**"
       - "README.md"
   workflow_dispatch:
 
@@ -27,14 +28,23 @@ jobs:
         with:
           ref: main
 
-      - name: Generate stats card
-        uses: stats-organization/github-readme-stats-action@v2
+      - uses: actions/setup-node@v6
         with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: true
+          node-version: "24"
+
+      - name: Install stats renderer
+        run: npm ci --ignore-scripts --no-audit --no-fund
+        working-directory: .github/stats
+
+      - name: Check project star aggregation
+        run: npm test
+        working-directory: .github/stats
+
+      - name: Generate stats card
+        run: npm run generate
+        working-directory: .github/stats
+        env:
+          PAT_1: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit stats card
         run: |
