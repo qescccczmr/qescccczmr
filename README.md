@@ -1,7 +1,7 @@
 ## Hey! Nice to see you.
 
-I work on efficient LLM/VLM inference and GPU kernel optimization,
-with a focus on MoE, low-precision computation, and distributed inference.
+I work on efficient LLM inference and GPU kernel optimization,
+with a focus on MoE and distributed inference.
 
 ![GitHub Stats](./profile/stats.svg)
 
