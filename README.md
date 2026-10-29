@@ -7,8 +7,6 @@ with a focus on MoE and distributed inference.
 
 ## Open-source Work
 
-Featured project: **[Triton_Grouped_GEMM](https://github.com/DeepLink-org/Triton_Grouped_GEMM)** — optimized BF16 and FP8 grouped GEMM kernels in Triton, with M-grouped / K-grouped implementations and TMA support.
-
 Selected contributions:
 
 | Project / Area | Status | Contributions |
@@ -18,13 +16,14 @@ Selected contributions:
 | LMDeploy · Quantization | 🟣 | [#4897 TurboMind W4A16 backend for AWQ linear](https://github.com/InternLM/lmdeploy/pull/4897) |
 | LMDeploy · Communication | 🟣 | [#4915 Symmetric-memory LM-head all-gather](https://github.com/InternLM/lmdeploy/pull/4915) |
 | LMDeploy · KPool | 🟣 | [#5067 Limit JIT specialization with bounded scoring](https://github.com/InternLM/lmdeploy/pull/5067) |
-| LMDeploy · MoE dispatch | 🟣 | [#5071 Skip dummy and padded tokens in DeepEP low-latency dispatch](https://github.com/InternLM/lmdeploy/pull/5071), covering BF16/FP8 and CUDA Graph replay. Merged as [9f2cd03](https://github.com/InternLM/lmdeploy/commit/9f2cd03ad1187443ede93c8f75f540c5c643b419). |
+| LMDeploy · MoE dispatch | 🟣 | [#5071](https://github.com/InternLM/lmdeploy/pull/5071) Skip dummy/padded tokens in DeepEP low-latency dispatch. |
 | LMDeploy · MoE kernels | 🟢 | [#4947 CuTeDSL W4A16 MoE backend](https://github.com/InternLM/lmdeploy/pull/4947), [#4956 FP8 MoE decode optimizations](https://github.com/InternLM/lmdeploy/pull/4956) |
 | LMDeploy · KDA | 🟢 | [#5050 Unified KDA prefill with optional FlashKDA checkpoints](https://github.com/InternLM/lmdeploy/pull/5050), [#5073 FlashKDA Docker integration](https://github.com/InternLM/lmdeploy/pull/5073) |
 | DeepGEMM · Grouped GEMM | 🟢 | [#350 Shape-aware alignment for SM90 small-M grouped GEMM](https://github.com/deepseek-ai/DeepGEMM/pull/350) |
+| [Triton_Grouped_GEMM](https://github.com/DeepLink-org/Triton_Grouped_GEMM) | — | Optimized BF16/FP8 grouped GEMM kernels in Triton.<br>M-grouped / K-grouped · TMA support |
 | DLBlas · Triton kernels | 🟣 | [#140 MatterSim optimizations](https://github.com/DeepLink-org/DLBlas/pull/140), [#66 Permute / unpermute](https://github.com/DeepLink-org/DLBlas/pull/66), [#60 GRPO loss backward](https://github.com/DeepLink-org/DLBlas/pull/60) |
 
-> 🟣 Merged · 🟢 Open · Status checked on 2026-10-29.
+> 🟣 Merged · 🟢 Open · — Project · Status checked on 2026-10-29.
 
 ---
 
