@@ -7,6 +7,8 @@ with a focus on MoE and distributed inference.
 
 ## Open-source Work
 
+Featured project: **[Triton_Grouped_GEMM](https://github.com/DeepLink-org/Triton_Grouped_GEMM)** — optimized BF16 and FP8 grouped GEMM kernels in Triton, with M-grouped / K-grouped implementations and TMA support.
+
 Selected contributions:
 
 | Project / Area | Status | Contributions |
@@ -16,7 +18,7 @@ Selected contributions:
 | LMDeploy · Quantization | 🟣 | [#4897 TurboMind W4A16 backend for AWQ linear](https://github.com/InternLM/lmdeploy/pull/4897) |
 | LMDeploy · Communication | 🟣 | [#4915 Symmetric-memory LM-head all-gather](https://github.com/InternLM/lmdeploy/pull/4915) |
 | LMDeploy · KPool | 🟣 | [#5067 Limit JIT specialization with bounded scoring](https://github.com/InternLM/lmdeploy/pull/5067) |
-| LMDeploy · MoE dispatch | 🟣 | [#5071 Skip dummy and padded tokens in low-latency dispatch](https://github.com/InternLM/lmdeploy/pull/5071) |
+| LMDeploy · MoE dispatch | 🟣 | [#5071 Skip dummy and padded tokens in DeepEP low-latency dispatch](https://github.com/InternLM/lmdeploy/pull/5071), covering BF16/FP8 and CUDA Graph replay. Merged as [9f2cd03](https://github.com/InternLM/lmdeploy/commit/9f2cd03ad1187443ede93c8f75f540c5c643b419). |
 | LMDeploy · MoE kernels | 🟢 | [#4947 CuTeDSL W4A16 MoE backend](https://github.com/InternLM/lmdeploy/pull/4947), [#4956 FP8 MoE decode optimizations](https://github.com/InternLM/lmdeploy/pull/4956) |
 | LMDeploy · KDA | 🟢 | [#5050 Unified KDA prefill with optional FlashKDA checkpoints](https://github.com/InternLM/lmdeploy/pull/5050), [#5073 FlashKDA Docker integration](https://github.com/InternLM/lmdeploy/pull/5073) |
 | DeepGEMM · Grouped GEMM | 🟢 | [#350 Shape-aware alignment for SM90 small-M grouped GEMM](https://github.com/deepseek-ai/DeepGEMM/pull/350) |
@@ -31,4 +33,5 @@ Complete contributions:
 - [LMDeploy](https://github.com/InternLM/lmdeploy/pulls?q=is%3Apr+author%3Aqescccczmr)
 - [DeepGEMM](https://github.com/deepseek-ai/DeepGEMM/pulls?q=is%3Apr+author%3Aqescccczmr)
 - [DLBlas](https://github.com/DeepLink-org/DLBlas/pulls?q=is%3Apr+author%3Aqescccczmr)
+- [Triton_Grouped_GEMM commits](https://github.com/DeepLink-org/Triton_Grouped_GEMM/commits/main/?author=qescccczmr)
 - [All public PRs](https://github.com/search?q=is%3Apr+is%3Apublic+author%3Aqescccczmr&type=pullrequests)
