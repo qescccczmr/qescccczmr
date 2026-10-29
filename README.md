@@ -17,7 +17,8 @@ Selected contributions:
 | LMDeploy · Communication | 🟣 | [#4915 Symmetric-memory LM-head all-gather](https://github.com/InternLM/lmdeploy/pull/4915) |
 | LMDeploy · KPool | 🟣 | [#5067 Limit JIT specialization with bounded scoring](https://github.com/InternLM/lmdeploy/pull/5067) |
 | LMDeploy · MoE dispatch | 🟣 | [#5071 Skip dummy and padded tokens in low-latency dispatch](https://github.com/InternLM/lmdeploy/pull/5071) |
-| LMDeploy · MoE kernels | 🟢 | [#4947 CuTeDSL W4A16 MoE backend](https://github.com/InternLM/lmdeploy/pull/4947) |
+| LMDeploy · MoE kernels | 🟢 | [#4947 CuTeDSL W4A16 MoE backend](https://github.com/InternLM/lmdeploy/pull/4947), [#4956 FP8 MoE decode optimizations](https://github.com/InternLM/lmdeploy/pull/4956) |
+| LMDeploy · KDA | 🟢 | [#5050 Unified KDA prefill with optional FlashKDA checkpoints](https://github.com/InternLM/lmdeploy/pull/5050), [#5073 FlashKDA Docker integration](https://github.com/InternLM/lmdeploy/pull/5073) |
 | DeepGEMM · Grouped GEMM | 🟢 | [#350 Shape-aware alignment for SM90 small-M grouped GEMM](https://github.com/deepseek-ai/DeepGEMM/pull/350) |
 | DLBlas · Triton kernels | 🟣 | [#140 MatterSim optimizations](https://github.com/DeepLink-org/DLBlas/pull/140), [#66 Permute / unpermute](https://github.com/DeepLink-org/DLBlas/pull/66), [#60 GRPO loss backward](https://github.com/DeepLink-org/DLBlas/pull/60) |
 
