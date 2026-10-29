@@ -5,7 +5,7 @@ with a focus on MoE and distributed inference.
 
 ![GitHub Stats](./profile/stats.svg)
 
-*Stars include personal repositories and [Triton_Grouped_GEMM](https://github.com/DeepLink-org/Triton_Grouped_GEMM).*
+
 
 ## Open-source Work
 
