@@ -22,7 +22,7 @@ Selected contributions:
 | LMDeploy · MoE kernels | 🟢 | [#4947 CuTeDSL W4A16 MoE backend](https://github.com/InternLM/lmdeploy/pull/4947), [#4956 FP8 MoE decode optimizations](https://github.com/InternLM/lmdeploy/pull/4956) |
 | LMDeploy · KDA | 🟢 | [#5050 Unified KDA prefill with optional FlashKDA checkpoints](https://github.com/InternLM/lmdeploy/pull/5050), [#5073 FlashKDA Docker integration](https://github.com/InternLM/lmdeploy/pull/5073) |
 | DeepGEMM · Grouped GEMM | 🟢 | [#350 Shape-aware alignment for SM90 small-M grouped GEMM](https://github.com/deepseek-ai/DeepGEMM/pull/350) |
-| Triton_Grouped_GEMM|  🟢 | [Optimized BF16/FP8 grouped GEMM kernels in Triton.](https://github.com/DeepLink-org/Triton_Grouped_GEMM)<br>[M-grouped / K-grouped · TMA support](https://github.com/DeepLink-org/Triton_Grouped_GEMM) |
+| Triton_Grouped_GEMM|  🟣 | [Optimized BF16/FP8 grouped GEMM kernels in Triton.](https://github.com/DeepLink-org/Triton_Grouped_GEMM)<br>[M-grouped / K-grouped · TMA support](https://github.com/DeepLink-org/Triton_Grouped_GEMM) |
 | DLBlas · Triton kernels | 🟣 | [#140 MatterSim optimizations](https://github.com/DeepLink-org/DLBlas/pull/140), [#66 Permute / unpermute](https://github.com/DeepLink-org/DLBlas/pull/66), [#60 GRPO loss backward](https://github.com/DeepLink-org/DLBlas/pull/60) |
 
 > 🟣 Merged · 🟢 Open · Status checked on 2026-10-29.
