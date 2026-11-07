@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">qescccczmr&#39;s GitHub Stats, Rank: B-</title>
-        <desc id="descId">Total Stars Earned: 13, Total Commits  (last year) : 37, Total PRs: 29, Total Issues: 4, Contributed to (last year): 11</desc>
+        <desc id="descId">Total Stars Earned: 13, Total Commits  (last year) : 37, Total PRs: 32, Total Issues: 4, Contributed to (last year): 12</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 177.28749526556103;
+        stroke-dashoffset: 175.57527520615204;
       }
     }
   
@@ -199,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >29</text>
+      >32</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -229,7 +229,7 @@
         x="224.01"
         y="12.5"
         data-testid="contribs"
-      >11</text>
+      >12</text>
     </g>
   </g>
     </svg>
